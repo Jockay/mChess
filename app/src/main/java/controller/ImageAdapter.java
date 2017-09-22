@@ -129,13 +129,13 @@ public class ImageAdapter extends BaseAdapter {
         return iv;
     }
 
-    private Integer getBoardElement(int index) {
+    public Integer getBoardElement(int index) {
 //        int i = (index / 8);
 //        int j = (index % 8);
         return imageId[index];
     }
 
-    private Integer getBoardElement(int i, int j) {
-        return imageId[i * j];
+    public Integer getBoardElement(int i, int j) {
+        return imageId[(i * 8) + (j)];
     }
 }
