@@ -1,6 +1,5 @@
 package view;
 
-import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -11,18 +10,18 @@ import android.widget.Toast;
 
 import com.jockay.mchess.R;
 
-import controller.ImageAdapter;
+import controller.BoardAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
     private  GridView gvMain;
-    private ImageAdapter ia;
+    private BoardAdapter ia;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        this.ia = new ImageAdapter(this);
+        this.ia = new BoardAdapter(this);
         this.gvMain = (GridView) findViewById(R.id.gwMain);
         this.gvMain.setAdapter(ia);
         this.gvMain.setOnItemClickListener(new AdapterView.OnItemClickListener() {

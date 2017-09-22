@@ -1,7 +1,10 @@
 package model;
 
 public class Constants {
-	
+
+	public static final Integer SQUARE_PADDING = 0;
+	public static final Integer IMAGE_SIZE = 160;
+
 	public static final String WHITE = "white";
 	public static final String BLACK = "black";
 	public static final String UP   = "up";

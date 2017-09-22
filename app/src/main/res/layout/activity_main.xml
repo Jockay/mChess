@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.jockay.mchess.view.MainActivity"
+    tools:context="view.MainActivity"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
@@ -26,8 +26,8 @@
             android:id="@+id/gwMain"
             android:columnWidth="90dp"
             android:numColumns="8"
-            android:verticalSpacing="10dp"
-            android:stretchMode="columnWidth"
+            android:verticalSpacing="0dp"
+            android:stretchMode="spacingWidth"
             android:gravity="center"
         />
 </LinearLayout>

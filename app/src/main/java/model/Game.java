@@ -48,7 +48,7 @@ public class Game {
 		Piece  piece = searchPieceOnBoard(a);
 		if(piece == null) 
 		{ return NO_PIECE_FOUND; }
-		Place  positionSave = piece.getPosition();
+		Place positionSave = piece.getPosition();
 		
 		if(isDrawn()) 
 		{ return DRAWN; }
@@ -140,7 +140,7 @@ public class Game {
 		board.setValue(pieceSave, placeSave);
 	}
 	
-	private int tryKingMove(Player notActuall, Piece piece, Place b) {		
+	private int tryKingMove(Player notActuall, Piece piece, Place b) {
 		if( ! (piece instanceof King)) {
 			throw new IllegalArgumentException();
 		}

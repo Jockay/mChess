@@ -57,7 +57,7 @@ public class Player {
 					new Pawn  (new Place(1, 1), color),
 					new Pawn  (new Place(2, 1), color),
 					new Pawn  (new Place(3, 1), color),
-					new Pawn  (new Place(4, 1), color), 
+					new Pawn  (new Place(4, 1), color),
 					new Pawn  (new Place(5, 1), color),
 					new Pawn  (new Place(6, 1), color),
 					new Pawn  (new Place(7, 1), color),

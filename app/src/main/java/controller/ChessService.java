@@ -22,7 +22,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import model.Game;
-import model.Place;
 import model.pieces.Piece;
 
 public class ChessService {
