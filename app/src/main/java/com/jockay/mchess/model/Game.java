@@ -1,26 +1,26 @@
-package model;
+package com.jockay.mchess.model;
 
-import static model.Constants.BLACK;
-import static model.Constants.CHECK;
-import static model.Constants.CHECKMATE;
-import static model.Constants.DRAWN;
-import static model.Constants.HIT_DONE;
-import static model.Constants.NOT_MOVEABLE;
-import static model.Constants.NO_PIECE_FOUND;
-import static model.Constants.PROMOTION_REQUIERED;
-import static model.Constants.STEP_DONE;
-import static model.Constants.WHITE;
+import static com.jockay.mchess.model.Constants.BLACK;
+import static com.jockay.mchess.model.Constants.CHECK;
+import static com.jockay.mchess.model.Constants.CHECKMATE;
+import static com.jockay.mchess.model.Constants.DRAWN;
+import static com.jockay.mchess.model.Constants.HIT_DONE;
+import static com.jockay.mchess.model.Constants.NOT_MOVEABLE;
+import static com.jockay.mchess.model.Constants.NO_PIECE_FOUND;
+import static com.jockay.mchess.model.Constants.PROMOTION_REQUIERED;
+import static com.jockay.mchess.model.Constants.STEP_DONE;
+import static com.jockay.mchess.model.Constants.WHITE;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import model.pieces.Bishop;
-import model.pieces.King;
-import model.pieces.Knight;
-import model.pieces.Pawn;
-import model.pieces.Piece;
-import model.pieces.Queen;
-import model.pieces.Rook;
+import com.jockay.mchess.model.pieces.Bishop;
+import com.jockay.mchess.model.pieces.King;
+import com.jockay.mchess.model.pieces.Knight;
+import com.jockay.mchess.model.pieces.Pawn;
+import com.jockay.mchess.model.pieces.Piece;
+import com.jockay.mchess.model.pieces.Queen;
+import com.jockay.mchess.model.pieces.Rook;
 
 public class Game {
 	private Board   board;

@@ -1,4 +1,4 @@
-package model;
+package com.jockay.mchess.model;
 
 public class Place {
 	

@@ -1,4 +1,4 @@
-package controller;
+package com.jockay.mchess.controller;
 
 import java.io.File;
 import java.util.List;
@@ -21,8 +21,8 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import model.Game;
-import model.pieces.Piece;
+import com.jockay.mchess.model.Game;
+import com.jockay.mchess.model.pieces.Piece;
 
 public class ChessService {
 	

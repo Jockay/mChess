@@ -1,11 +1,11 @@
-package model.pieces;
+package com.jockay.mchess.model.pieces;
 
-import static model.Constants.*;
+import static com.jockay.mchess.model.Constants.*;
 import static java.lang.Math.abs;
 
-import controller.Util;
-import model.Board;
-import model.Place;
+import com.jockay.mchess.controller.Util;
+import com.jockay.mchess.model.Board;
+import com.jockay.mchess.model.Place;
 
 public class Pawn extends Piece {
 	

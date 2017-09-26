@@ -1,4 +1,4 @@
-package view;
+package com.jockay.mchess.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,11 +10,11 @@ import android.widget.Toast;
 
 import com.jockay.mchess.R;
 
-import controller.BoardAdapter;
+import com.jockay.mchess.controller.BoardAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
-    private  GridView gvMain;
+    private GridView gvMain;
     private BoardAdapter ia;
 
     @Override

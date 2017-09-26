@@ -1,10 +1,10 @@
-package model.pieces;
+package com.jockay.mchess.model.pieces;
 
-import model.Board;
-import model.Place;
-import model.Player;
+import com.jockay.mchess.model.Board;
+import com.jockay.mchess.model.Place;
+import com.jockay.mchess.model.Player;
 
-import static model.Constants.KING;
+import static com.jockay.mchess.model.Constants.KING;
 import static java.lang.Math.abs;
 
 public class King extends Piece {

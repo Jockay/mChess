@@ -1,18 +1,18 @@
-package model;
+package com.jockay.mchess.model;
 
-import static model.Constants.*;
+import static com.jockay.mchess.model.Constants.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import model.pieces.Bishop;
-import model.pieces.King;
-import model.pieces.Knight;
-import model.pieces.Pawn;
-import model.pieces.Piece;
-import model.pieces.Queen;
-import model.pieces.Rook;
+import com.jockay.mchess.model.pieces.Bishop;
+import com.jockay.mchess.model.pieces.King;
+import com.jockay.mchess.model.pieces.Knight;
+import com.jockay.mchess.model.pieces.Pawn;
+import com.jockay.mchess.model.pieces.Piece;
+import com.jockay.mchess.model.pieces.Queen;
+import com.jockay.mchess.model.pieces.Rook;
 
 public class Player {
 	

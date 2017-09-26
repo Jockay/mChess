@@ -1,6 +1,6 @@
-package model;
+package com.jockay.mchess.model;
 
-import model.pieces.Piece;
+import com.jockay.mchess.model.pieces.Piece;
 
 public class Board {
 	private Integer[][] board;

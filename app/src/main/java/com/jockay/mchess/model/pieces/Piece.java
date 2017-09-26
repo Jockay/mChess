@@ -1,12 +1,12 @@
-package model.pieces;
+package com.jockay.mchess.model.pieces;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import model.Board;
-import model.Constants;
-import model.Place;
-import model.Player;
+import com.jockay.mchess.model.Board;
+import com.jockay.mchess.model.Constants;
+import com.jockay.mchess.model.Place;
+import com.jockay.mchess.model.Player;
 
 public abstract class Piece {
 	

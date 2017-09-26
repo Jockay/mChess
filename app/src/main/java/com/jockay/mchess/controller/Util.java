@@ -1,6 +1,6 @@
-package controller;
+package com.jockay.mchess.controller;
 
-import model.Place;
+import com.jockay.mchess.model.Place;
 
 public class Util {
 	
