@@ -1,9 +1,15 @@
 package com.jockay.mchess.model;
 
+import android.graphics.Color;
+
 public class Constants {
 
+	public static final Integer DARK_SQUARE_COLOR = Color.rgb(209, 139, 71);
+	public static final Integer BRIGHT_SQUARE_COLOR = Color.rgb(255, 206, 158);
+
 	public static final Integer SQUARE_PADDING = 0;
-	public static final Integer IMAGE_SIZE = 160;
+	public static final Integer IMAGE_SIZE = 90;
+    public static Integer SQUARE_SIZE = 90;
 
 	public static final String WHITE = "white";
 	public static final String BLACK = "black";
