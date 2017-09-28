@@ -40,7 +40,7 @@ public class Place {
 	 */
 	@Override
 	public String toString() {
-		return "Place [x=" + x + ", y=" + y + "]";
+		return "(" + x + ", " + y + ")";
 	}
 	
 }

@@ -181,40 +181,38 @@ public class Util {
         Constants.SQUARE_SIZE = getSquareSize(context);
     }
 
-    public static int getPlaceColor(Place place) {
-        int x = place.getX();
-        int y = place.getY();
-
-        if(isEven(y)) {
-            if( isOdd(x)) {
-                return DARK_SQUARE_COLOR;
-            } else {
-                return BRIGHT_SQUARE_COLOR;
-            }
-        } else {
-            if(isEven(x)) {
-                return DARK_SQUARE_COLOR;
-            } else {
-                return BRIGHT_SQUARE_COLOR;
-            }
-        }
-    }
+//    public static int getPlaceBackgroundResource(Place place, Boolean isSelected) {
+//        int x = place.getX();
+//        int y = place.getY();
+//        if(isEven(y)) {
+//            if(isOdd(x)) {
+//                return isSelected ? R.drawable.border_dark   : R.drawable.dark;
+//            } else {
+//                return isSelected ? R.drawable.border_bright : R.drawable.bright;
+//            }
+//        } else {
+//            if(isEven(x)) {
+//                return isSelected ? R.drawable.border_dark   : R.drawable.dark;
+//            } else {
+//                return isSelected ? R.drawable.border_bright : R.drawable.bright;
+//            }
+//        }
+//    }
 
     public static int getPlaceBackgroundResource(Place place) {
         int x = place.getX();
         int y = place.getY();
-
         if(isEven(y)) {
-            if( isOdd(x)) {
-                return R.drawable.border_dark;
+            if(isOdd(x)) {
+                return R.drawable.stateful_dark;
             } else {
-                return R.drawable.border_bright;
+                return R.drawable.stateful_bright;
             }
         } else {
             if(isEven(x)) {
-                return R.drawable.border_dark;
+                return R.drawable.stateful_dark;
             } else {
-                return R.drawable.border_bright;
+                return R.drawable.stateful_bright;
             }
         }
     }

@@ -130,4 +130,11 @@ public class Square extends LinearLayout {
 
     }
 
+    public View getContent() {
+        return content;
+    }
+
+    public void setContent(View content) {
+        this.content = content;
+    }
 }

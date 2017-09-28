@@ -80,4 +80,8 @@ public class BoardAdapter extends BaseAdapter {
         return squares.get((i * 8) + (j));
     }
 
+    public List<Square> getSquares() {
+        return squares;
+    }
+
 }
